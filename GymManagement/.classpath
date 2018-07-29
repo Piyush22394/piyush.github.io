@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_144">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/JAR Files/activation.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/gmail.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/javax.mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/javax.ws.rs.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/mail.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="F:/JAR Files/servlet-api-3.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

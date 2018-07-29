@@ -1,0 +1,101 @@
+body {
+    font-family: 'Cormorant Unicase', serif;
+    background-attachment: fixed;
+    background: url(../images/banner12.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0080ff;
+    
+    
+}
+
+li {
+	
+    float: left;
+   
+  
+   }
+
+li a {
+	 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    border: 1px solid black;
+   
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+    
+}
+tr{
+	background-color: rgba(255,255,255,0.7);
+}
+
+.register-top-grid h3, .register-bottom-grid h3 {
+	color:#00BFF0;
+	font-size: 1em;
+	padding-bottom: 5px;
+	margin: 0;
+}
+.register-top-grid div, .register-bottom-grid div {
+	width: 48%;
+	float: left;
+	margin: 10px 0;
+}
+.register-top-grid span, .register-bottom-grid span {
+	color:#555;
+	font-size: 0.85em;
+	padding-bottom: 0.2em;
+	display: block;
+	text-transform: uppercase;
+}
+.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+	border: 1px solid #EEE;
+	outline-color:#00BFF0;
+	width: 96%;
+	font-size: 1em;
+	padding: 0.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+

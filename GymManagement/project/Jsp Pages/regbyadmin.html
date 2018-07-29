@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Silver Fitness Club Gym</title>
+
+<script type='text/javascript' src='js/validate1.js'></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+   <!-- start menu -->
+    <div class="menu">
+	  <div class="container">
+		 <div class="logo">
+			<img src="images/logo.png" alt=""/>
+		 </div>
+		 <div class="h_menu4"><!-- start h_menu4 -->
+		   <a class="toggleMenu" href="#">Menu</a>
+			 <ul class="nav">
+			   <li class="active"><a href="index.html">Home</a></li>
+			   <li><a href="about.html">About</a></li>
+			   <li><a href="pricing.html">Pricing</a></li>
+			   <li><a href="contact.html">Contact</a></li>
+			 </ul>
+			 
+		  </div><!-- end h_menu4 -->
+		 <div class="clear"></div>
+	  </div>
+	</div>
+	<!-- end menu -->
+        <div class="main">
+          <div class="register-grids">
+          	<div class="container">
+          	
+						<form name="registerform" action="adminadd" method="post" onsubmit="return validate11();"> 
+								<div class="register-top-grid">
+										<h3>PERSONAL INFORMATION</h3>
+										<div>
+											<span>First Name<label>*</label></span>
+											<input type="text" name="Firstname"> 
+										</div>
+										<div>
+											<span>Last Name<label>*</label></span>
+											<input type="text" name="Lastname"> 
+										</div>
+										<div>
+											<span>Mobile<label>*</label></span>
+											<input type="text" name="mobile"> 
+										</div>	
+										<div>
+											<span>Email Id<label>*</label></span>
+											<input type="text" name="email"> 
+										</div>	
+										<div>
+											<span>Gender</span>
+											 <input type="radio" name="gender" value="male"> Male
+  											<input type="radio" name="gender" value="female"> Female
+ 											 
+										</div>	
+	
+																			
+										<div>
+											<span>Height(Cm)</span>
+											<input type="text" name="height"> 
+										</div>	
+										<div>
+											<span>Weight(Kg)</span>
+											<input type="text" name="weight"> 
+										</div>	
+										<div>
+											<span>Date of Registration<label>*</label></span>
+											<input type="text" name="regdate" > 
+										</div>	
+										<div>
+											<span>Date of Expire<label>*</label></span>
+											<input type="text" name="expdate" > 
+										</div>		
+											
+											<div class="clear"> </div>
+									</div>
+								<div class="clear"> </div>
+								<input type="submit" value="Register">
+						</form>
+					</div>
+				</div>
+         </div>
+        
+		  
+		
+</body>
+</html>
